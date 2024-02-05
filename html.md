@@ -238,6 +238,69 @@ Enhance SEO and machine readability with microdata by using Schema.org Vocabular
 Use async or defer attributes with `<script>` tags to control the loading and execution of JavaScript.
 Optimize images using appropriate sizes and formats.
 
+## Events
+
+### Window / Load Events
+
+load: Fired when the whole page has loaded, including all dependent resources such as stylesheets and images.
+DOMContentLoaded: Fired when the DOM is fully loaded and parsed, but without waiting for stylesheets, images, and subframes to finish loading.
+unload: Fired when the document is being unloaded (e.g., when navigating to another page).
+beforeunload: Fired before the document is about to be unloaded, allowing the opportunity to ask the user for confirmation if needed.
+resize: Fired when the document view (window) has been resized.
+scroll: Fired when the document is scrolled.
+
+### Form Events
+
+submit: Fired when a form is submitted.
+reset: Fired when a form is reset.
+change: Fired when the value of a form element (e.g., input, select) has been changed.
+input: Fired when the value of an `<input>`, `<select>`, or `<textarea>` element is changed.
+focus: Fired when an element receives focus.
+blur: Fired when an element loses focus.
+focusin: Fired when an element is about to receive focus.
+focusout: Fired when an element is about to lose focus.
+
+### Keyboard Events
+
+keydown: Fired when a key is pressed down.
+keypress: Fired when a key is pressed down and that key normally produces a character value (deprecated).
+keyup: Fired when a key is released.
+
+### Mouse Events
+
+click: Fired when a mouse button is clicked.
+dblclick: Fired when a mouse button is double clicked.
+mousedown: Fired when a mouse button is pressed down.
+mouseup: Fired when a mouse button is released.
+mousemove: Fired when the mouse is moved.
+mouseover: Fired when the mouse enters an element.
+mouseout: Fired when the mouse leaves an element.
+mouseenter: Fired when the mouse enters an element (does not bubble).
+mouseleave: Fired when the mouse leaves an element (does not bubble).
+
+### Drag & Drop Events
+
+drag
+dragstart
+dragend
+dragover
+dragenter
+dragleave
+drop
+
+### Clipboard Events
+
+cut
+copy
+paste
+
+### Touch Events
+
+touchstart
+touchmove
+touchend
+touchcancel
+
 ## Security
 
 1. Use HTTPS for Resources
